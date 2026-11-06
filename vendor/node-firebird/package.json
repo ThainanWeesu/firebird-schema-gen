@@ -1,0 +1,25 @@
+{
+  "name": "@weesurepo/node-firebird",
+  "version": "1.1.11",
+  "description": "Pure JavaScript and Asynchronous Firebird client for Node.js.",
+  "keywords": [
+    "firebird",
+    "database",
+    "rdbms",
+    "sql"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weesurepo/node-firebird.git"
+  },
+  "main": "./lib",
+  "types": "./lib/index.d.ts",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "big-integer": "^1.6.51",
+    "long": "^5.2.3"
+  }
+}
